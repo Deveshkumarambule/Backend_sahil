@@ -1,0 +1,22 @@
+{
+  "name": "emailservice",
+  "version": "1.0.0",
+  "description": "emailServer",
+  "main": "email.js",
+  "scripts": {
+    "start": "nodemon email.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.3",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.3",
+    "mongoose": "^6.9.1",
+    "node-imap": "^0.9.6",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "login-service",
+  "version": "1.0.0",
+  "main": "login.js",
+  "scripts": {
+    "start": "nodemon login.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.7",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "figlet": "^1.5.2",
+    "helmet": "^5.1.1",
+    "joi": "^17.7.1",
+    "joi-jwt": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.2.0",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19",
+    "sinon": "^15.0.1",
+    "validator": "^13.7.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
+}
